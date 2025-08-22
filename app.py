@@ -149,4 +149,4 @@ if run and selected:
         display_recommendations(idx, movies, scores)
 
 st.markdown("---")
-st.markdown("**Data Compatibility:** Works out-of-the-box with the MovieLens dataset (e.g., `ml-latest-small`) which provides `movies.csv` and `ratings.csv`. Place both files next to `app.py`.")
+#st.markdown("**Data Compatibility:** Works out-of-the-box with the MovieLens dataset (e.g., `ml-latest-small`) which provides `movies.csv` and `ratings.csv`. Place both files next to `app.py`.")
