@@ -32,8 +32,3 @@ streamlit-movie-recommender/
 - **Content**: TF-IDF over `genres` text; cosine similarity between movies.
 - **Hybrid**: Min–Max normalize both similarity scores and compute `alpha * CF + (1 - alpha) * Content`.
 
-## 🔮 Ideas to Extend
-- Add **poster images** (TMDB API) and external links.
-- Include **user-based CF** or **matrix factorization (SVD)**.
-- Enrich content with **tag genome** or plot summaries.
-- Persist **user sessions** and let users rate movies during runtime.
